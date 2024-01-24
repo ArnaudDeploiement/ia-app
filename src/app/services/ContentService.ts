@@ -12,8 +12,8 @@ export class ContentService {
     constructor() {
 
         this.contentData = {
-            intro: "ChatGPT est un outil idéal pour les agents administratifs grâce à sa compréhension contextuelle, sa polyvalence, et sa capacité à automatiser des tâches répétitives. Il simplifie la rédaction, la gestion des demandes, et offre une assistance intelligente.",
-
+            Intro: "ChatGPT est un outil idéal pour les agents administratifs grâce à sa compréhension contextuelle, sa polyvalence, et sa capacité à automatiser des tâches répétitives. Il simplifie la rédaction, la gestion des demandes, et offre une assistance intelligente.",
+            TitleContent: "ChatGPT - Formation"
         };
     }
 

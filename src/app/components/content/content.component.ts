@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { ContentService } from '../../services/ContentService'
+
+
 
 @Component({
   selector: 'app-content',
@@ -11,18 +12,9 @@ import { ContentService } from '../../services/ContentService'
 export class ContentComponent {
 
   @Input() intro?: string;
+  @Input() titlecontent?: string;
+  @Input() Data?: any = [];
 
-
-  constructor(private contentService: ContentService) { }
-
-  ngOnInit(): void {
-    this.loadData();
-  }
-
-  loadData(): void {
-    const data = this.contentService.getContentData();
-    this.intro = data.intro;
-  }
 
 
 }

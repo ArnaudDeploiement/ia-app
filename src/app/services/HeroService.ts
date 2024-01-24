@@ -13,7 +13,7 @@ export class HeroService {
         this.heroData = {
             title: "L'Intelligence Artificielle",
             tagline: "au service des agents administratifs",
-            promesse: "Agents Administratifs, simplifiez votre quotidien professionnel avec l'intelligence artificielle. AdminAI vous propose des formations gratuites. Libérez-vous des contraintes répétitives et gagnez du temps dans votre journée.",
+            promesse: "Apprenez à maîtriser l'intelligence artificielle grâce à nos formations gratuites. Libérez vous des contraintes répétitives et simplifiez votre quotidien professionnel.",
         };
     }
 
