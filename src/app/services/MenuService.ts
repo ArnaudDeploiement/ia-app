@@ -12,7 +12,7 @@ export class MenuService {
     constructor() {
 
         this.menuData = {
-            logo: 'Admin AI',
+            logo: 'AIMAIRA',
             Menu1: 'Modules',
             Menu2: 'A propos',
             button: 'Contactez-nous'

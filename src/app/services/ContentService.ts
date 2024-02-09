@@ -12,8 +12,8 @@ export class ContentService {
     constructor() {
 
         this.contentData = {
-            Intro: "ChatGPT est un outil idéal pour les agents administratifs grâce à sa compréhension contextuelle, sa polyvalence, et sa capacité à automatiser des tâches répétitives. Il simplifie la rédaction, la gestion des demandes, et offre une assistance intelligente.",
-            TitleContent: "ChatGPT - Formation"
+            Intro: "Bienvenue sur la plateforme de formation de l'ERP AIMAIRA. Apprenez à maîtriser notre ERP conçu pour aider les établissements du supérieur : de la candidature à la diplomation des apprenants.",
+            TitleContent: "ERP - Formation"
         };
     }
 

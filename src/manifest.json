@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Votre Extension",
+    "version": "1.0",
+    "description": "Description de votre extension",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "assets/aimaira7.png",
+            "32": "assets/aimaira7.png",
+            "48": "assets/aimaira7.png",
+            "128": "assets/aimaira7.png"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

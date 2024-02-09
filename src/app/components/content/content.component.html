@@ -5,20 +5,22 @@
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white uppercase">{{titlecontent}}</h1>
           <div class="h-1 w-20 bg-green-500 rounded"></div>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90 text-justify">{{intro}}</p>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90 text-justify text-xl">{{intro}}</p>
       </div>
-
+    
       <div class="flex flex-wrap justify-center" >
+
         @for (item of Data; track item.id){
-        <div class="xl:w-1/4 md:w-1/2 p-4">
-          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg" id={{item.id}}>
+          <a [routerLink]="['DetailComponent', item.id]" class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg hover:bg-slate-900" id={{item.id}}>
             <img class="h-40 rounded w-full object-cover object-center mb-6" src={{item.img}} alt="content">
-            <h3 class="tracking-widest text-green-400 text-xs font-medium title-font">{{item.level}}</h3>
+            <h3 class="tracking-widest text-green-400 text-xs font-medium title-font ">{{item.level}}</h3>
             <h2 class="text-lg text-white font-medium title-font mb-4">{{item.title}}</h2>
             <p class="leading-relaxed text-base">{{item.content}}</p>
           </div>
-        </div>}
+        </a>}
             </div>
+          
       </div>
     
   </section>

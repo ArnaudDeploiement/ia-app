@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { MenuService } from '../../services/MenuService'
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
